@@ -1,0 +1,32 @@
+@import '~@blueprintjs/core';
+@import '~@blueprintjs/table/src/table.scss';
+
+body { 
+  text-transform: none;
+  line-height: 1.28581;
+  letter-spacing: 0;
+  font-family: "OpenSans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  color: #182026;
+}
+
+.demo-flexbox-container {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  text-align: center;
+}
+
+.demo-flexbox-container div {
+  display: flex;
+  align-items: flex-end;
+  flex-direction: row;
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  padding: 10px;
+  width: 100px;
+  height: 100px;
+  margin: 20px;
+}
