@@ -1,5 +1,5 @@
 // Style guide definition
-export const theme = {
+export const theme    = {
 
   colorPrimary:         '#0D5A8A',
   colorSecondary:       '#8A9BA8',
@@ -17,11 +17,27 @@ export const theme = {
   colorMutedBlack:      '#e3e3e3',
   colorWhite:           '#fff',
 
-
   // Button defaults
-  defaultBorderRadius: '3px',
-  defaultPadding:      '4px 8px',
-  buttonBorder:        '0',
+  defaultBorderRadius:  '3px',
+  defaultPadding:       '4px 8px',
+  buttonBorder:         '0',
+
+  // Font Size
+  fontSizeSmall:        8,
+  fontSizeNormal:       12,
+  fontSizeUIText:       14,
+  fontSizeRunningText:  16,
+  fontSizeH3:           16,
+  fontSizeH2:           24,
+  fontSizeH1:           32,
+
+  // Font Size
+  lineHeight16:         16,
+  lineHeight20:         20,
+  lineHeight22:         22,
+  lineHeight24:         24,
+  lineHeight32:         32,
+  lineHeight40:         40
   
 };
 
